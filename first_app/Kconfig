@@ -1,0 +1,9 @@
+config EXAMPLES_MY_APP
+	bool "My First NuttX Application"
+	default n
+	---help---
+		Enable my first NuttX application
+
+if EXAMPLES_MY_APP
+
+endif
