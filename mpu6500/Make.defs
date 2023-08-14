@@ -1,0 +1,5 @@
+# MPU6500
+
+ifeq ($(CONFIG_SENSORS_MPU6500),y)
+  CSRCS += mpu6500.c
+endif

@@ -1,0 +1,6 @@
+config SENSORS_MPU6500
+        bool "MPU6500 6-axis Inertial Measurement Unit"
+        default n
+        select I2C
+        ---help---
+                Enable driver support for MPU6500 Inertial Measurement Unit (IMU).
