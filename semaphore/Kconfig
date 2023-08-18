@@ -1,9 +1,9 @@
-config EXAMPLES_MY_APP
-	bool "My First NuttX Application"
+config EXAMPLES_NUTTX_STM32_SEMAPHORE
+	bool "NuttX STM32 Semaphore Example"
 	default n
 	---help---
-		Enable my first NuttX application
+		Enable NuttX STM32 Semaphore Example
 
-if EXAMPLES_MY_APP
+if EXAMPLES_NUTTX_STM32_SEMAPHORE
 
 endif

@@ -1,9 +1,9 @@
-config EXAMPLES_MY_APP
-	bool "My First NuttX Application"
+config EXAMPLES_NUTTX_STM32_WQ
+	bool "NuttX Work Queue Example"
 	default n
 	---help---
-		Enable my first NuttX application
+		Enable Nuttx STM32 Work Queue Example
 
-if EXAMPLES_MY_APP
+if EXAMPLES_NUTTX_STM32_WQ
 
 endif
